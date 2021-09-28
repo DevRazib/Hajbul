@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+	body{
+	    background: rgb(173,95,212);
+    background: linear-gradient(90deg, rgba(173,95,212,1) 0%, rgba(15,107,210,1) 62%, rgba(23,200,16,1) 100%);
+}
+        div {
+            width: 200px;
+            height: 80px;
+            background-color: red;
+			font-size:30px;
+            font-weight: bold;
+            position: relative;
+            animation: mymove 6s infinite;
+			text-align:center;
+			text-transform:uppercase;
+			margin-top:30px;
+        }
+        
+        #div1 {
+            animation-timing-function: linear;
+			border-radius:10px;
+			
+        }
+        
+        #div2 {
+            animation-timing-function: ease;
+			border-radius:10px 20px 10px 20px;
+        }
+        
+        #div3 {
+            animation-timing-function: ease-in;
+			border-radius:10px;
+			background:cyan;
+        }
+        
+        #div4 {
+            animation-timing-function: ease-out;
+			border-radius:10px;
+        }
+        
+        #div5 {
+            animation-timing-function: ease-in-out;
+			border-radius:50px 0px 50px 0px;
+			color:#ffffff;
+			font-size:25px;
+			width:250px;
+			height:150px;
+        }
+        
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <div id="div1">
+	<h4>Happy</h4>
+	</div>
+    <div id="div2"><h3>Birthday </h4>
+	</div>
+    <div id="div3">
+	<h2>
+	To
+	</h2>
+	</div>
+    <div id="div4">
+	<h2>
+	You
+	</h2></div>
+    <div id="div5">
+	<h1>Rahed Hajbul</div>
+</body>
+
+</html>
